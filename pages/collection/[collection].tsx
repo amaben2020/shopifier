@@ -1,7 +1,6 @@
 import React from 'react';
 import { client, parseShopifyResponse } from './../../lib/shopifyClient';
 const Collections = ({ collection }) => {
-  console.log(collection);
   return (
     <div>
       <h2>{collection.title}</h2>
